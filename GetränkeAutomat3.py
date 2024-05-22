@@ -12,7 +12,8 @@ def multiOrder():
     
     #bestimmt nicht die eleganteste Lösung..System prüft die User-Eingabe und gleicht ab
     #Im Prinzip der Ersatz für einen Switch-Case
-    if getraenk == 5:#änderung 0 auf 5 zum testen
+    
+    if getraenk == 1:#änderung 0 auf 5 zum testen
         betrag = 0.50 * getraenkMenge #Kosten pro Flasche * gewählte Menge
         print (betrag,"€")
         zahlung = float(input("Gewähltes Getränk: Wasser.\nBitte werfen Sie den oben stehenden Betrag in Euro oder Cent Münzen ein.\n"))
